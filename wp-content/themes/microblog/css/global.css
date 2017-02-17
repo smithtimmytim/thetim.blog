@@ -120,8 +120,8 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
   content: none;
+  content: '';
 }
 table {
   border-collapse: collapse;
@@ -254,6 +254,10 @@ FOOTER
 .footer {
   margin-bottom: 2rem;
   padding-top: 5rem;
+}
+
+.footer a {
+  text-decoration: none;
 }
 
 .copyright {
