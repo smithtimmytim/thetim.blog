@@ -120,8 +120,8 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
   content: none;
+  content: '';
 }
 table {
   border-collapse: collapse;
@@ -230,6 +230,11 @@ a:focus {
   line-height: 1.4;
 }
 
+.microblog-post img {
+  height: auto;
+  width: 100%;
+}
+
 .microblog-post--single {
   margin: 6rem auto 0;
   max-width: 900px;
@@ -239,6 +244,11 @@ a:focus {
 .microblog-post--single p {
   font-size: 2rem;
   line-height: 1.4;
+}
+
+.microblog-post--single img {
+  height: auto;
+  width: 450px;
 }
 
 .microblog-post__footer {
