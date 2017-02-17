@@ -120,8 +120,8 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: none;
   content: '';
+  content: none;
 }
 table {
   border-collapse: collapse;
@@ -158,6 +158,14 @@ a {
   transition: color 300ms ease-in-out;
 }
 
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: 600;
+}
+
 p:not(:last-of-type) {
   margin: 0 0 1.5rem;
 }
@@ -168,11 +176,11 @@ a:focus {
 }
 
 .home {
-  max-width: 550px;
+  max-width: 520px;
 }
 
 .header {
-  margin-bottom: 3rem;
+  margin-bottom: 3.5rem;
   text-align: center;
 }
 
