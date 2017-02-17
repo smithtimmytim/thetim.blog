@@ -16,13 +16,4 @@
   <?php wp_head(); ?>
 </head>
 
-<header class="header" role="banner">
-  <figure class="avatar">
-    <img src="<?php bloginfo('template_url'); ?>/images/tim-smith-avatar.jpg" alt="Tim Smith">
-  </figure>
-  <h1 class="site__name">Timothy B. Smith</h1>
-  <h2 class="site__bio">Designer &amp; Developer. Writer of <a href="https://theboldreport.net">The Bold Report</a>. Design Mentor at <a href="https://bloc.io">Bloc</a>. In love with Kelly Smith. Chapín/Boricua.</h2>
-  <a href="<?php bloginfo('rss2_url'); ?>" class="button button--primary">Subscribe</a>
-</header>
-
 <body <?php body_class(); ?>>

@@ -1,0 +1,287 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-boz-sizing: border-box;
+}
+
+/*
+----------------------------------
+END RESET
+---------------------------------- */
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  color: #555;
+  font-family: 'Whitney SSm A', 'Whitney SSm B', system, -apple-system, BlinkMacSystemFont, Avenir, sans-serif;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+  margin: 0 auto;
+  width: 90%;
+}
+
+a {
+  color: #429CD4;
+  transition: color 300ms ease-in-out;
+}
+
+p:not(:last-of-type) {
+  margin: 0 0 1.5rem;
+}
+
+a:hover,
+a:focus {
+  color: #6CB2DD;
+}
+
+.home {
+  max-width: 550px;
+}
+
+.header {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.avatar {
+  margin: 1rem 0;
+}
+
+.avatar img {
+  border-radius: 3px;
+  display: block;
+  margin: auto;
+  max-width: 125px;
+}
+
+.site__name,
+.site__bio {
+  color: #333;
+  font-family: 'Whitney Cond A', 'Whitney Cond B', system, -apple-system, BlinkMacSystemFont, Avenir, sans-serif;
+}
+
+.site__name {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: .2rem;
+}
+
+.site__bio {
+  color: #777;
+  font-size: 1.6rem;
+  font-weight: normal;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.site__bio a {
+  text-decoration: none;
+}
+
+.microblog-post:not(:last-of-type) {
+  border-bottom: 1px solid #EEE;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+}
+
+.microblog-post p {
+  font-size: 1.1rem;
+  line-height: 1.4;
+}
+
+.microblog-post--single {
+  margin: 6rem auto 0;
+  max-width: 900px;
+  text-align: center;
+}
+
+.microblog-post--single p {
+  font-size: 2rem;
+  line-height: 1.4;
+}
+
+.microblog-post__footer {
+  color: #888;
+  font-size: .85rem;
+  padding-top: 1.5rem;
+}
+
+.microblog-post__footer a {
+  color: inherit;
+}
+
+/*
+-------------------------------
+FOOTER
+------------------------------- */
+.single .footer {
+  text-align: center;
+}
+
+.footer {
+  margin-bottom: 2rem;
+  padding-top: 5rem;
+}
+
+.copyright {
+  color: #999;
+  font-size: .8rem;
+}
+
+/*
+-------------------------------
+BUTTONS
+------------------------------- */
+
+.button {
+  border-radius: 3px;
+  display: inline-block;
+  font-weight: 600;
+  padding: .6rem .8rem;
+  text-decoration: none;
+}
+
+.button--primary {
+  background-color: #F88962;
+  color: white;
+  transition: background-color 300ms ease-in-out;
+}
+
+.button--primary:hover,
+.button--primary:focus {
+  background-color: #FAAE93;
+  color: white;
+}
