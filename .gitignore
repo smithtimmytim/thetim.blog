@@ -57,6 +57,8 @@ wp-content/*
 !wp-content/mu-plugins/
 !wp-content/plugins/
 !wp-content/themes/
+!wp-content/advanced-cache.php
+!wp-cache-config.php
 
 # ignore these plugins
 wp-content/plugins/hello.php
